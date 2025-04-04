@@ -6,13 +6,17 @@ TalentScout Hiring Assistant is a lightweight AI-powered interview chatbot that 
 
 ## 🚀 Features
 
-✔ **AI-Powered Interviews** – Generates dynamic, unique technical questions based on the candidate’s tech stack.
-✔ **Supports Multiple AI Models** – Works with Claude, OpenAI GPT, and Ollama models.
-✔ **Privacy & Security** – No sensitive data is stored or shared externally.
-✔ **Simple & Fast Setup** – Easily configurable via environment variables.
-✔ **Interactive Chat Interface** – Built with Streamlit for a seamless user experience.
+- **AI-Powered Interviews** – Generates dynamic, unique technical questions based on the candidate’s tech stack.
+- **Supports Multiple AI Models** – Works with Claude, OpenAI GPT, and Ollama models.
+- **Privacy & Security** – No sensitive data is stored or shared externally.
+- **Simple & Fast Setup** – Easily configurable via environment variables.
+- **Interactive Chat Interface** – Built with Streamlit for a seamless user experience.
 
 ---
+## 📌 Requirements
+
+- Python 3.10
+- Ollama installed on your machine
 
 ## 🛠 Installation & Setup
 
@@ -41,6 +45,28 @@ TalentScout supports multiple AI models for flexible and adaptable hiring assess
 - **Claude (Anthropic)** – `claude-3-sonnet-20240229`, `claude-3-opus-20240229`
 - **OpenAI GPT** – `gpt-4`
 - **Ollama (Local AI)** – `mistral`
+
+  
+---
+
+## 🏗 Project Structure
+```
+📂 LocalAI Chat
+├── app.py  # Main application script
+├── README.md  # Project documentation
+├── requirements.txt  # Required dependencies
+└── venv/  # Virtual environment (optional)
+```
+
+## 🤖 How It Works
+1. Select an AI model from the sidebar.
+2. Start chatting with the assistant.
+3. Enjoy fast and secure local AI interactions without any cloud dependency.
+
+## 🔗 Useful Links
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [LangChain](https://python.langchain.com/)
+- [Ollama](https://ollama.com/)
 
 
 ---
